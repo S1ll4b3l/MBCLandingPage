@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <!-- Tambahkan di <head> jika belum -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MBC Laboratory</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.42.0/tabler-icons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">MBCLab</div>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Divisi & Layanan</a>
+        <a href="#contact">Kontak</a>
+        <a href="#developer">Developer</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Solusi Cerdas untuk Dunia Digital</h1>
+        <p>
+          Kami adalah MBC Laboratory — tempat di mana inovasi, teknologi, dan
+          data berpadu menciptakan solusi digital masa depan.
+        </p>
+        <ul>
+          <li>💡 Riset dan pengembangan teknologi berbasis AI & data</li>
+          <li>📊 Konsultasi & pelatihan berbasis kebutuhan industri</li>
+          <li>⚙️ Pembuatan produk digital siap pakai & riset terapan</li>
+        </ul>
+       <a href="https://www.instagram.com/mbclab/" target="_blank">
+  <button>Join us!</button>
+</a>
+
+      </div>
+      <div class="hero-media">
+        <img src="image/office.jpg" alt="Demo Preview" />
+      </div>
+    </section>
+
+    <div class="badges">
+      <span>#1 Technology Lab</span>
+      <span>Deep Research Program</span>
+      <span>Professional Training</span>
+      <span>Connect With Expert</span>
+      <span>Workspace</span>
+    </div>
+
+    <section class="scale-section" id="services">
+      <h2 class="scale-heading">Divisi & Layanan</h2>
+      <div class="scale-features">
+        <div class="feature highlight fade-in">
+          <div class="icon">🛡️</div>
+          <h3>Cybersecurity</h3>
+          <p>Perlindungan sistem dan data dari ancaman digital.</p>
+        </div>
+        <div class="feature highlight fade-in">
+          <div class="icon">📊</div>
+          <h3>Big Data</h3>
+          <p>Pengolahan data skala besar untuk wawasan strategis.</p>
+        </div>
+        <div class="feature highlight fade-in">
+<i class="icon">🌐</i>
+          <h3>GIS</h3>
+          <p>Solusi geospasial berbasis teknologi pemetaan akurat.</p>
+        </div>
+        <div class="feature highlight fade-in">
+          <div class="icon">🎮</div>
+          <h3>GameTech</h3>
+          <p>Platform interaktif untuk edukasi dan hiburan imersif.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="trusted-section" id="contact">
+      <h2 class="trusted-heading">Connect with us!</h2>
+      <div class="contact-icons">
+  <div class="contact-item">
+    <i class="ti ti-map-pin"></i>
+    <span>Telkom University</span>
+  </div>
+  <div class="contact-item">
+    <i class="ti ti-phone"></i>
+    <span>+62 812-3456-7890</span>
+  </div>
+  <div class="contact-item">
+    <i class="ti ti-brand-instagram"></i>
+    <span>@mbclab</span>
+  </div>
+</div>
+
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63355.03501735653!2d107.60243788739588!3d-6.974104101775117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9c735b50a05%3A0xb64f1af6be95bdf0!2sTelkom%20University!5e0!3m2!1sid!2sid!4v1620000000000!5m2!1sid!2sid"
+          width="100%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <!-- ✅ Formulir Kontak (Formspree) -->
+        <form
+          id="contactForm"
+          class="contact-form"
+          action="https://formspree.io/f/mnnvrggg"
+          method="POST"
+        >
+          <input type="text" name="nama" placeholder="Nama Anda" required />
+          <input type="email" name="email" placeholder="Email Anda" required />
+          <textarea
+            name="pesan"
+            rows="4"
+            placeholder="Pesan Anda"
+            required
+          ></textarea>
+          <button type="submit">Kirim</button>
+        </form>
+        <div id="formResponse" class="form-response"></div>
+      </div>
+    </section>
+
+    <section class="developer-section" id="developer">
+      <div class="developer-title-box">
+        <h2 class="scale-heading">Tentang Developer</h2>
+      </div>
+
+      <div class="developer-card">
+        <div class="developer-container">
+          <img
+            src="image/timot.jpeg"
+            alt="Foto Developer"
+            class="developer-photo"
+          />
+          <div class="developer-content">
+            <h3>Timothy Hinsan Widjaja</h3>
+            <blockquote>"It is what it is, I guess."</blockquote>
+            <p>
+              Mahasiswa Teknik Informatika Telkom University angkatan 2023 yang
+              antusias membangun solusi digital cerdas dan penuh semangat di
+              dunia teknologi.
+            </p>
+            <div class="developer-links">
+              <a
+                href="mailto:racataxs@gmail.com"
+                class="dev-icon-link"
+                title="Email"
+              >
+                <i class="ti ti-mail"></i>
+              </a>
+              <a
+                href="https://drive.google.com/drive/folders/1dtLUNppOOJzxYLX-3NDDeQm6kmPiW-5z?usp=sharing"
+                target="_blank"
+                class="dev-icon-link"
+                title="Portfolio"
+              >
+                <i class="ti ti-world"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/timothy-widjaja-1746982a2/"
+                target="_blank"
+                class="dev-icon-link"
+                title="LinkedIn"
+              >
+                <i class="ti ti-brand-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ Script Formspree Handler -->
+    <script>
+      const form = document.getElementById("contactForm");
+      const responseDiv = document.getElementById("formResponse");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const data = new FormData(form);
+
+        fetch(form.action, {
+          method: "POST",
+          body: data,
+          headers: {
+            Accept: "application/json",
+          },
+        })
+          .then((response) => {
+            if (response.ok) {
+              responseDiv.innerHTML =
+                "<p style='color:green;'>Pesan berhasil dikirim. Terima kasih!</p>";
+              form.reset();
+            } else {
+              response.json().then((data) => {
+                if (data.errors) {
+                  responseDiv.innerHTML = `<p style='color:red;'>Gagal: ${data.errors
+                    .map((e) => e.message)
+                    .join(", ")}</p>`;
+                } else {
+                  responseDiv.innerHTML =
+                    "<p style='color:red;'>Terjadi kesalahan. Silakan coba lagi.</p>";
+                }
+              });
+            }
+          })
+          .catch(() => {
+            responseDiv.innerHTML =
+              "<p style='color:red;'>Terjadi kesalahan jaringan.</p>";
+          });
+      });
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
