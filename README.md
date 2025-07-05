@@ -1,6 +1,7 @@
 # 🌐 MBC Laboratory Landing Page
 
-Welcome to the official landing page for **MBC Laboratory** — an innovative hub for technology, research, and data solutions.  
+Welcome to the official landing page for **MBC Laboratory** — an innovative hub for technology, research, and data solutions. 
+
 This website showcases our services, divisions, contact form, and developer profile — all within a clean and responsive design.
 
 ---
@@ -49,6 +50,7 @@ This website showcases our services, divisions, contact form, and developer prof
   You may integrate tools like Snort, Suricata, or Wazuh for enhanced security in a backend        version.
 
 👨‍💻 About the Developer
+  
   Timothy Hinsan Widjaja
     🎓 Informatics Student
     📧 racataxs@gmail.com
