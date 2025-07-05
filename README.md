@@ -1,86 +1,74 @@
-# 🌐 MBC Laboratory Website
+# 🌐 MBC Laboratory Landing Page
 
-[![Deploy to Vercel](https://img.shields.io/badge/deploy-Vercel-black?logo=vercel)](https://vercel.com)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
-
-Website resmi untuk **MBC Laboratory**
+Welcome to the official landing page for **MBC Laboratory** — an innovative hub for technology, research, and data solutions.  
+This website showcases our services, divisions, contact form, and developer profile in a clean and responsive design.
 
 ---
 
-## ✨ Fitur Utama
+## 🗂 Project Structure
 
-- 🔗 Navigasi antarseksi: Home, Divisi & Layanan, Kontak, Developer
-- 📱 Modern Design dan Responsive
-- 📤 Formulir kontak yang terhubung ke Formspree
-- 🌐 Integrasi peta Google Maps
-- 🔒 HTTPS
-- 🚀 Siap di-deploy ke platform cloud (seperti Vercel)
+mbc-lab-landing/
+├── index.html # Main website structure
+├── style.css # Layout and visual styling
+├── script.js # JS for interactivity (e.g., mobile menu)
+├── image/ # Image assets
+│ ├── office.jpg # Hero image
+│ └── timot.jpeg # Developer profile photo
+├── README.md # This documentation
+└── Dokumentasi_Proyek_MBC_Lab.pdf # Additional docs (architecture, form, etc.)
 
----
-
-## 🧩 Divisi & Layanan
-
-- **Cybersecurity**
-- **Big Data**
-- **GIS**
-- **GameTech**
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 💻 Local Installation
 
-- HTML5, CSS3 (Inter font, custom styling)
-- JavaScript (untuk form & interaktivitas)
-- FontAwesome & Tabler Icons
-- Formspree (untuk backend form kontak)
-- Google Maps Embed
-- GitHub + Vercel (deployment & version control)
-
----
-
-## 📂 Struktur Folder
-
-```
-📁 root-folder/
-├── index.html
-├── style.css
-├── script.js
-├── image/
-│   └── office.jpg
-│   └── timot.jpeg
-└── README.md
-```
-
----
-
-## 🚀 Cara Menjalankan Lokal
+To run the project locally on your machine:
 
 ```bash
-# clone repo ini
-git clone https://github.com/username/mbc-lab.git
-cd mbc-lab
+git clone https://github.com/username/mbc-lab-landing.git
+cd mbc-lab-landing
 
-# buka index.html di browser
-```
+Then simply open index.html in your preferred web browser.
 
----
+🚀 Deployment with Vercel
+Log in to Vercel.
 
-## ☁️ Deploy ke Vercel
+Connect your GitHub account and select this repository.
 
-1. Buka [vercel.com](https://vercel.com)
-2. Hubungkan dengan GitHub dan pilih repo ini
-3. Klik **Deploy**
-4. Done! 🎉
+Hit Deploy.
 
----
+Your site will be live at:
+https://mbc-lab.vercel.app (example)
 
-## 👤 Tentang Developer
+✅ HTTPS is enabled automatically via Vercel SSL.
 
-**Timothy Hinsan Widjaja**  
-Mahasiswa Teknik Informatika Telkom University (2023)  
-📧 racataxs@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/timothy-widjaja-1746982a2/)  
-📂 [Portfolio](https://drive.google.com/drive/folders/1dtLUNppOOJzxYLX-3NDDeQm6kmPiW-5z?usp=sharing)
+📬 Contact Form (Backend)
+The contact form is powered by Formspree — no backend server needed.
 
----
+<form action="https://formspree.io/f/mnnvrggg" method="POST">
+  <input type="text" name="name" required />
+  <input type="email" name="email" required />
+  <textarea name="message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+📱 Responsive Design
+Fully responsive layout — optimized for mobile, tablet, and desktop.
+
+Clean, accessible interface using modern HTML5 and CSS3.
+
+Includes icons from Tabler Icons and Font Awesome.
+
+🛡 IDS Integration (Optional)
+❌ No IDS (Intrusion Detection System) is currently implemented.
+You may integrate tools like Snort or Suricata in future backend expansions.
+
+👨‍💻 About the Developer
+Timothy Hinsan Widjaja
+🎓 Informatics Engineering Student
+📧 racataxs@gmail.com
+🧳 Portfolio
+🔗 LinkedIn
+
+🚧 This project is still growing. Contributions and feedback are always welcome!
+
