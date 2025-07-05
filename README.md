@@ -5,16 +5,7 @@ This website showcases our services, divisions, contact form, and developer prof
 
 ---
 ## 🗂 Project Structure
-mbc-lab-landing/
-├── index.html # Main website structure
-├── style.css # Layout and visual styling
-├── script.js # JS for interactivity (e.g., mobile menu)
-├── image/ # Image assets
-│ ├── office.jpg # Hero image
-│ └── timot.jpeg # Developer profile photo
-├── README.md # This documentation
-└── Dokumentasi_Proyek_MBC_Lab.pdf # Additional docs (architecture, form, etc.)
----
+![Project Structure](./image/folder.png)
 
 💻 Local Installation
 
@@ -61,5 +52,5 @@ mbc-lab-landing/
   Timothy Hinsan Widjaja
     🎓 Informatics Student
     📧 racataxs@gmail.com
-    🧳 Portfolio
-    🔗 LinkedIn
+    🧳 [Portfolio](https://drive.google.com/drive/folders/1dtLUNppOOJzxYLX-3NDDeQm6kmPiW-5z)
+    🔗 [LinkedIn](https://www.linkedin.com/in/timothy-widjaja-1746982a2/)
