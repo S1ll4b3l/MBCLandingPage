@@ -1,12 +1,10 @@
 # 🌐 MBC Laboratory Landing Page
 
 Welcome to the official landing page for **MBC Laboratory** — an innovative hub for technology, research, and data solutions.  
-This website showcases our services, divisions, contact form, and developer profile in a clean and responsive design.
+This website showcases our services, divisions, contact form, and developer profile — all within a clean and responsive design.
 
 ---
-
 ## 🗂 Project Structure
-
 mbc-lab-landing/
 ├── index.html # Main website structure
 ├── style.css # Layout and visual styling
@@ -16,59 +14,52 @@ mbc-lab-landing/
 │ └── timot.jpeg # Developer profile photo
 ├── README.md # This documentation
 └── Dokumentasi_Proyek_MBC_Lab.pdf # Additional docs (architecture, form, etc.)
-
-
 ---
 
-## 💻 Local Installation
+💻 Local Installation
 
-To run the project locally on your machine:
+  To run the project locally on your machine:
 
-```bash
-git clone https://github.com/username/mbc-lab-landing.git
-cd mbc-lab-landing
+  ```bash
+  git clone https://github.com/username/mbc-lab-landing.git
+  cd mbc-lab-landing
+  ```
 
-Then simply open index.html in your preferred web browser.
+  Then simply open index.html in your preferred web browser.
 
 🚀 Deployment with Vercel
-Log in to Vercel.
+  1. Log in to Vercel.
+  2. Connect your GitHub account and select this repository.
+  3. Click Deploy.
+  4. Your site will be live at:
+  https://mbc-landing-page-three.vercel.app/
 
-Connect your GitHub account and select this repository.
-
-Hit Deploy.
-
-Your site will be live at:
-https://mbc-lab.vercel.app (example)
-
-✅ HTTPS is enabled automatically via Vercel SSL.
+  ✅ HTTPS is enabled automatically via Vercel's free SSL.
 
 📬 Contact Form (Backend)
-The contact form is powered by Formspree — no backend server needed.
+  The contact form uses Formspree — no custom backend needed.
 
-<form action="https://formspree.io/f/mnnvrggg" method="POST">
-  <input type="text" name="name" required />
-  <input type="email" name="email" required />
-  <textarea name="message" required></textarea>
-  <button type="submit">Send</button>
-</form>
-
+  Here’s the form structure used in this site:
+```bash
+  <form action="https://formspree.io/f/mnnvrggg" method="POST">
+    <input type="text" name="name" required />
+    <input type="email" name="email" required />
+    <textarea name="message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+```
 📱 Responsive Design
-Fully responsive layout — optimized for mobile, tablet, and desktop.
-
-Clean, accessible interface using modern HTML5 and CSS3.
-
-Includes icons from Tabler Icons and Font Awesome.
+  1. ✅ Fully responsive — optimized for mobile, tablet, and desktop.
+  2. 🎨 Built with modern HTML5 + CSS3.
+  3. 🎯 Icons from Tabler Icons and Font Awesome.
 
 🛡 IDS Integration (Optional)
-❌ No IDS (Intrusion Detection System) is currently implemented.
-You may integrate tools like Snort or Suricata in future backend expansions.
+  Currently: No Intrusion Detection System (IDS) implemented.
+  You may integrate tools like Snort, Suricata, or Wazuh for enhanced security in a backend        version.
 
 👨‍💻 About the Developer
-Timothy Hinsan Widjaja
-🎓 Informatics Engineering Student
-📧 racataxs@gmail.com
-🧳 Portfolio
-🔗 LinkedIn
-
-🚧 This project is still growing. Contributions and feedback are always welcome!
-
+  Timothy Hinsan Widjaja
+    🎓 Informatics Student
+    📧 racataxs@gmail.com
+    🧳 Portfolio
+    🔗 LinkedIn
